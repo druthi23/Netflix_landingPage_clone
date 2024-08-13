@@ -315,6 +315,19 @@ text-align: center;
     }
 }
 
+@media (max-width: 400px) {
+    .table td {
+        padding-left: 2rem; /* Increase space for labels */
+        font-size: 0.9rem; /* Adjust font size for better fit */
+    }
+
+    .table td::before {
+        width: 40%; /* Adjust width of the label */
+        padding-left: 2rem; /* Reduce padding */
+        font-size: 0.9rem; /* Adjust font size */
+    }
+}
+
 /* Footer */
 
 .footer{
